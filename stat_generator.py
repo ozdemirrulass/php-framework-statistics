@@ -87,7 +87,7 @@ def update_archive_json(data):
 
 if __name__ == "__main__":
     frameworks = [
-        {"name": "Laravel", "owner": "laravel", "repo": "framework"},
+        {"name": "Laravel", "owner": "laravel", "repo": "laravel"},
         {"name": "Symfony", "owner": "symfony", "repo": "symfony"},
         {"name": "CodeIgniter", "owner": "bcit-ci", "repo": "codeigniter"},
         {"name": "Yii2", "owner": "yiisoft", "repo": "yii2"},
