@@ -5,7 +5,10 @@
 ## Overview
 This repository contains Python script to collect data and generate statistical charts about the popularity of various PHP frameworks. The scripts gather data and present it in visual representations for analysis and comparison.
 
-## Latest Statistics
+## Statistics
+- **[LATEST STATISTICS CHARTS](https://github.com/ozdemirrulass/php-framework-statistics/blob/main/latest_stats.md)**
+- **[archive.json](https://github.com/ozdemirrulass/php-framework-statistics/blob/main/archive.json)**: Contains archived JSON data files.
+- **[archive/charts/](https://github.com/ozdemirrulass/php-framework-statistics/tree/main/archive/charts)**: Stores generated charts.
 
 
 ## Data Sources
@@ -18,10 +21,6 @@ This repository contains Python script to collect data and generate statistical 
 - https://github.com/cakephp/cakephp
 - https://github.com/phalcon/cphalcon
 - https://github.com/fuel/fuel
-
-## File Structure
-- **archive.json**: Contains archived JSON data files.
-- **archive/charts/**: Stores generated charts.
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements or additional features.
