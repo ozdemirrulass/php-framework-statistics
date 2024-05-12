@@ -18,7 +18,9 @@ def get_repo_info(owner, repo):
 
 def generate_charts(frameworks):
     color_cycle = cycle(plt.cm.tab10.colors)
-    current_time = datetime.now().strftime("%Y%m%d%H%M%S")
+    timestamp = datetime.now()
+    current_time = timestamp.strftime("%Y%m%d%H%M%S")
+    human_time = timestamp.strftime("%Y-%m-%d %H:%M:%S")
     stars_values = []
     forks_values = []
     labels = []
@@ -47,7 +49,7 @@ def generate_charts(frameworks):
     # Generate chart for stars
     plt.figure(figsize=(12, 6))
     plt.bar(labels, stars_values, color=[colors_dict[label] for label in labels])
-    plt.title(f'Stars Count for PHP Frameworks ({current_time})')
+    plt.title(f'Stars Count for PHP Frameworks ({human_time})')
     plt.xlabel('Frameworks')
     plt.ylabel('Stars Count')
     plt.xticks(rotation=45, ha='right')
@@ -58,7 +60,7 @@ def generate_charts(frameworks):
     # Generate chart for forks
     plt.figure(figsize=(12, 6))
     plt.bar(labels, forks_values, color=[colors_dict[label] for label in labels])
-    plt.title(f'Forks Count for PHP Frameworks ({current_time})')
+    plt.title(f'Forks Count for PHP Frameworks ({human_time})')
     plt.xlabel('Frameworks')
     plt.ylabel('Forks Count ')
     plt.xticks(rotation=45, ha='right')
