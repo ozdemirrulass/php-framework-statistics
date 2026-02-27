@@ -52560,6 +52560,86 @@
             }
           }
         ]
+      },
+      "20260227011345": {
+        "chart_paths": {
+          "stars_chart": "archive/charts/20260227011345_stars_count.png",
+          "forks_chart": "archive/charts/20260227011345_forks_count.png"
+        },
+        "frameworks": [
+          {
+            "name": "Laravel",
+            "owner": "laravel",
+            "repo": "laravel",
+            "github": {
+              "stars_count": 83808,
+              "forks_count": 24681
+            }
+          },
+          {
+            "name": "Symfony",
+            "owner": "symfony",
+            "repo": "symfony",
+            "github": {
+              "stars_count": 30955,
+              "forks_count": 9809
+            }
+          },
+          {
+            "name": "CodeIgniter",
+            "owner": "bcit-ci",
+            "repo": "codeigniter",
+            "github": {
+              "stars_count": 18218,
+              "forks_count": 7603
+            }
+          },
+          {
+            "name": "Yii2",
+            "owner": "yiisoft",
+            "repo": "yii2",
+            "github": {
+              "stars_count": 14318,
+              "forks_count": 6812
+            }
+          },
+          {
+            "name": "CakePHP",
+            "owner": "cakephp",
+            "repo": "cakephp",
+            "github": {
+              "stars_count": 8792,
+              "forks_count": 3383
+            }
+          },
+          {
+            "name": "Slim",
+            "owner": "slimphp",
+            "repo": "Slim",
+            "github": {
+              "stars_count": 12239,
+              "forks_count": 1966
+            }
+          },
+          {
+            "name": "Phalcon",
+            "owner": "phalcon",
+            "repo": "cphalcon",
+            "github": {
+              "stars_count": 10833,
+              "forks_count": 1943
+            }
+          },
+          {
+            "name": "FuelPHP",
+            "owner": "fuel",
+            "repo": "fuel",
+            "github": {
+              "stars_count": 1502,
+              "forks_count": 298
+            }
+          }
+        ]
       }
     }
   }
