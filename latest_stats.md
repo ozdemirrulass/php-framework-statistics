@@ -1,8 +1,8 @@
 ### Stars Count for PHP Frameworks
 
-![Stars Chart](./archive/charts/20260312011104_stars_count.png)
+![Stars Chart](./archive/charts/20260313011533_stars_count.png)
 
 ### Forks Count for PHP Frameworks
 
-![Forks Chart](./archive/charts/20260312011104_forks_count.png)
+![Forks Chart](./archive/charts/20260313011533_forks_count.png)
 
